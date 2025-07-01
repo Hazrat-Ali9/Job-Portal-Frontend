@@ -1,5 +1,5 @@
 import React from "react";
-
+// Banner jsx 
 const HeroBanner = () => {
   return (
     <div className="relative w-full h-screen bg-gradient-to-r from-indigo-900 via-purple-800 to-blue-900 overflow-hidden">
