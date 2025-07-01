@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import AuthContext from "../AuthContext/AuthContext";
 import Swal from "sweetalert2";
-
+// Register Form
 const RegisterForm = () => {
   const [passwordError, setPasswordError] = useState("");
   const { users, createUser } = useContext(AuthContext);
