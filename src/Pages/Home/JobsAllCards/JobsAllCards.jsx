@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import JobCard from "../JobCard/JobCard";
-
+// Jobs All Card
 const JobsAllCards = () => {
   const [jobsCards, setJobsCards] = useState([]);
   useEffect(() => {
