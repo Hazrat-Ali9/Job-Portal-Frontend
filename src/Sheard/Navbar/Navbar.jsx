@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import AuthContext from "../../AuthContext/AuthContext";
 import Swal from "sweetalert2";
-
+// 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // Mobile menu toggle state
   const { users, singOutUser } = useContext(AuthContext); // Context থেকে লগইন ইউজার আনুন
