@@ -4,7 +4,7 @@ import Home from "../Pages/Home/Home";
 import MainLayouts from "../Layouts/MainLayouts/MainLayouts";
 import RegisterForm from "../Form/RegisterForm";
 import LoginForm from "../Form/LoginForm";
-
+// Router jsx
 const Router = createBrowserRouter([
   {
     path: "/",
