@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+// Job Card 
 const JobCard = ({ jobs }) => {
   const {
     title,
