@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import AuthContext from "../AuthContext/AuthContext";
 import Swal from "sweetalert2";
-
+// Login Form
 const LoginForm = () => {
   const { loginUser } = useContext(AuthContext);
 
